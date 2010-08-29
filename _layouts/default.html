@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head profile="http://gmpg.org/xfn/11">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>{{ title }} | matid.net</title>
+
+    <link rel="stylesheet" href="/styles/reset.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/styles/screen.css" type="text/css" media="screen" />
+
+    <link rel="openid.server" href="http://www.myopenid.com/server" />
+    <link rel="openid.delegate" href="http://matid.myopenid.com" />
+    <meta http-equiv="X-XRDS-Location" content="http://matid.myopenid.com/xrds" />
+    <meta name="microid" content="mailto+http:sha1:f9d974234a9b49a116154690d11e92517faab4f0" />
+    <link rel="pavatar" href="http://files.matid.net/80x80.png" />
+
+    <link rel="alternate" type="application/rss+xml" title="Twitter" href="http://feeds.feedburner.com/twitter/matid" />
+    <link rel="alternate" type="application/rss+xml" title="Last.fm" href="http://feeds.feedburner.com/lastfm/matid" />
+    <link rel="alternate" type="application/rss+xml" title="Flickr" href="http://feeds.feedburner.com/flickr/matid" />
+    <link rel="alternate" type="application/rss+xml" title="del.icio.us" href="http://feeds.feedburner.com/delicious/matid" />
+    <link rel="home" href="http://matid.net" />
+
+    <script type="text/javascript" src="/scripts/jquery.js"></script>
+
+    <meta name="DC.creator" content="Mateusz Drożdżyński" />
+    <meta name="DC.language" scheme="RFC1766" content="en" />
+    <meta name="DC.description" lang="en" content="Mateusz Drożdżyński broadcasted : online identity" />
+    <meta name="description" lang="en" content="Mateusz Drożdżyński broadcasted : online identity" />
+    <meta name="keywords" content="matid, Mateusz Drożdżyński, Mateusz Drozdzynski, Mateusz, Drożdżyński, Drozdzynski, Ruby on Rails, XHTML, CSS, web standards, markup, web development, web applications" />
+  </head>
+  <body>
+    <div id="header">
+      <div id="logo">
+        <a href="/" accesskey="1" rel="bookmark">matid : id</a></a>
+      </div>
+      {% include menu.html %}
+    </div>
+    {{ content }}
+    <div id="footer">
+      <ul>
+        <li>&copy; 2008 Mateusz Drożdżyński</li>
+        <li>
+          <a href="/accessibility.html" accesskey="0">Accessibility</a>
+        </li>
+        <li>
+          <a href="/contact.html" accesskey="9">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+    <script type="text/javascript" src="http://twitter.com/statuses/user_timeline/matid.json?callback=twitterCallback2&amp;count=5"></script>
+  </body>
+</html>

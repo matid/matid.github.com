@@ -1,0 +1,281 @@
+body {
+	font: normal 76% "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Verdana, sans-serif;
+	color:  #333;
+	margin-left:  auto;
+	margin-right:  auto;
+	margin-top:  1em;
+	width:  80%;
+}
+
+div#logo {
+	margin-bottom: 0em;
+	color: #333;
+	font: 4em Optima;
+	text-shadow: #eee 0px 0px 5px;
+}
+
+div#logo a {
+	border: 0;
+	color: #333;
+	font-style: normal;
+}
+
+div#logo a:hover {
+	color: #C23D00;
+}
+
+
+a {
+	text-decoration: none;
+	color: inherit;
+	border-bottom: 1px solid #999;
+}
+
+a:hover {
+	color: #C23D00;
+	border-color: #C23D00;
+}
+
+div#content h2, div#content h1 {
+	text-transform: lowercase;
+	border-bottom: 4px solid #B0C036;
+	padding-bottom: 0.2em;
+	margin-bottom: 0.5em;
+	text-shadow: 1px 1px #eee;
+}
+
+div#content h1 {
+	font-size: 1.5em;
+	border-color: #C23D00;
+}
+
+div#content div#body {
+	text-align: justify;
+	float: left;
+	margin-bottom: 2em;
+}
+
+div#content.one div#body {
+        width: 100%;
+}
+
+div#content.two div#body {
+        width: 70%;
+}
+
+div#content.three div#body {
+        width: 44%;
+}
+
+div#content div.sidebar {
+	font-size: 0.9em;
+	text-align: justify;
+	width: 25%;
+	float: right;
+	margin-left: 3%;
+	margin-bottom: 2em;
+}
+
+div#content div.sidebar h2 {
+	border-color: #B0C036;
+	font-size: 1.6em;
+}
+
+div#content h2 a {
+	border: 0;
+}
+
+div#content ul.news li {
+	background: url('/styles/images/comment_bw.png') no-repeat
+}
+
+div#content ul.news li:hover {
+	background: url('/styles/images/comment.png') no-repeat;
+}
+
+div#content ul li {
+	margin-left: 0.5em;
+	padding-left: 2em;
+	padding-bottom: 0.5em;
+	margin-top: 0.5em;
+	background: url('/styles/images/bullet_blue.png') no-repeat;
+}
+
+div#content ul li:hover {
+	background: url('/styles/images/bullet_black.png') no-repeat;
+}
+
+ul.news {
+	text-align: left;
+}
+
+div.sidebar ul li h3 {
+	display: inline;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+div.sidebar ul li h3:after {
+	content: " ";
+}
+
+div.sidebar ul li p {
+	display: inline;
+}
+
+div.sidebar ul {
+	margin-bottom: 1em;
+}
+
+div.section {
+	margin-bottom: 1em;
+}
+
+img.me {
+	border: 4px solid #B0C036;
+}
+
+ul#twitter_update_list li {
+	color: #aaa;
+}
+
+ul#twitter_update_list li:first-child {
+	color: #333;
+}
+
+li#about-me {
+	background-image: url('/styles/images/vcard.png') !important;
+}
+
+li#contact {
+	background-image: url('/styles/images/email_go.png') !important;
+}
+
+div.hTagCloud a {
+  border: 0;
+}
+
+div.hTagCloud {
+	text-align: left;
+}
+
+div.hTagCloud ul.popularity li {
+  display: inline;
+  background: none !important;
+  padding: 0 !important;
+  text-transform: lowercase;
+  color: #B0C036;
+}
+
+div.hTagCloud ul.popularity li.weight1 {
+  font-size: 1em;
+}
+
+div.hTagCloud ul.popularity li.weight2 {
+  font-size: 1.2em;
+}
+
+div.hTagCloud ul.popularity li.weight3 {
+  font-size: 1.3em;
+}
+
+div.hTagCloud ul.popularity li.weight4 {
+  font-size: 1.4em;
+}
+
+div.hTagCloud ul.popularity li.weight5 {
+  font-size: 1.5em;
+}
+
+div.hTagCloud ul.popularity li.weight6 {
+  font-size: 1.6em;
+}
+
+div.hTagCloud ul.popularity li.weight7 {
+  font-size: 1.7em;
+}
+
+div#footer {
+	clear: both;
+	border-top:  1px solid #eee;
+	padding: 1em;
+}
+
+div#footer ul {
+	display: inline;
+}
+
+div#footer ul li {
+	font-family: "Georgia", sans-serif;
+	font-size: 1.1em;
+	display: inline;
+	margin-right: 1em;
+}
+
+ul#menu {
+	border-bottom:  1px solid #eee;
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+ul#menu li {
+	display:  inline;
+	margin-right: 1em;
+        font-family: "Georgia", sans-serif;
+	font-size: 1.1em;
+}
+
+ul#menu li a {
+	border: 0;
+}
+
+div.section p {
+	margin-top: 1em;
+}
+
+div.section p:first-child {
+	margin-top: 0;
+}
+
+div#body a:visited {
+	border-bottom-style: dotted;
+}
+
+div#body a[href^="http:"]:before {
+	content: "› "
+}
+
+div#body dl#hcard {
+	display: none;
+}
+
+dl.vcard {
+	text-align: left;
+	display: table;
+}
+
+dl.vcard dd, dl.vcard dt {
+	float: left;
+	display: table-cell;
+	padding-bottom: 0.5em;
+	margin-top: 0.4em;
+	padding-top: 0.1em;
+	line-height: 1em;
+}
+
+dl.vcard dt {
+	clear: left;
+	padding-right: 0.3em;
+	margin-left: 0.5em;
+	padding-left: 2em;
+	background: url('/styles/images/bullet_blue.png') no-repeat;
+}
+
+dl.vcard dt:hover, dl.vcard dt.hover {
+	background: url('/styles/images/bullet_black.png') no-repeat;
+}
+
+dl.vcard dd {
+	font-weight: bold;
+}
